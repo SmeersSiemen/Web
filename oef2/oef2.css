@@ -1,0 +1,48 @@
+h1 {
+    color: #1f4b82;
+}
+table {
+    
+    width: 600px;
+    border: 4px solid #1f4b82;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td{
+    border: 4px solid #1f4b82;
+}
+tbody td {
+    border-style: dashed;
+    font-size: 17px;
+}
+td[scope="rood"] {
+    background-color: #ff0000;
+}
+td[scope="geel"] {
+    background-color: #ffff00;
+}
+caption {
+    font-size:20px;
+    color:#1f4b82;
+}
+.center{
+    text-align: center;
+}
+.foot {
+    background-color:#79aff1
+}
+thead tr {
+    font-size: 20px;
+    height: 70px;
+}
+
+tbody tr {
+    height: 60px;
+}
+
+tfoot tr {
+    font-size: 20px;
+    height: 70px;
+}
+
+
